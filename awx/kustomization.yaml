@@ -9,7 +9,7 @@ secretGenerator:
       disableNameSuffixHash: true
     type: Opaque
     literals:
-      - password=Ansible123!
+      - password=MySuperStrongPassw00rd!
 
 resources:
   - awx.yaml
