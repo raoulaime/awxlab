@@ -6,7 +6,7 @@ metadata:
   namespace: awx
 spec:
   web_replicas: 1
-  task_replicas: 1
+  task_replicas: 3
   admin_user: admin
   admin_password_secret: awx-admin-password
   ingress_type: ingress
